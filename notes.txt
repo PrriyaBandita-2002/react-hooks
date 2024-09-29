@@ -1,8 +1,8 @@
  /* const [count, setCount] = useState(0);
   function decrement() {
-    // setCount(count - 1);//calling this function twice should decrease the count by two but it only increase once
-    //so we use previous state
     // setCount(count - 1);
+    // setCount(count - 1);//calling this function twice should decrease the count by two but it only decreases once
+    //so we use previous state
     setCount((previousCount) => previousCount - 1); //twice calling decrease by two
     setCount((previousCount) => previousCount - 1);
   }
