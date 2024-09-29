@@ -1,0 +1,19 @@
+ /* const [count, setCount] = useState(0);
+  function decrement() {
+    // setCount(count - 1);//calling this function twice should decrease the count by two but it only increase once
+    //so we use previous state
+    // setCount(count - 1);
+    setCount((previousCount) => previousCount - 1); //twice calling decrease by two
+    setCount((previousCount) => previousCount - 1);
+  }
+  function increment() {
+    setCount(count + 1);
+    setCount((previousCount) => previousCount + 1);
+  }
+  return (
+    <div className="App">
+      <button onClick={decrement}>-</button>
+      <span> {count} </span>
+      <button onClick={increment}>+</button>
+  </div>*/
+  )
